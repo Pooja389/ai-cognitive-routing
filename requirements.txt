@@ -1,0 +1,18 @@
+# Grid07 AI Assignment — Python Dependencies
+
+# LangChain core + LangGraph
+langchain>=0.2.0
+langchain-core>=0.2.0
+langgraph>=0.1.0
+
+# LLM providers (use at least one)
+langchain-groq>=0.1.0          # Groq (free tier, Llama 3)
+langchain-openai>=0.1.0        # OpenAI (optional fallback)
+
+# Vector search
+faiss-cpu>=1.7.4               # In-memory FAISS (CPU build)
+sentence-transformers>=2.7.0   # all-MiniLM-L6-v2 embeddings (no API key needed)
+
+# Utilities
+numpy>=1.26.0
+python-dotenv>=1.0.0           # .env file support
