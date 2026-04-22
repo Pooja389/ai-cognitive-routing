@@ -4,8 +4,7 @@
 
 ```bash
 git clone https://github.com/Pooja389/ai-cognitive-routing
-cd grid07
-python -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
+cd ai-cognitive-routing
 pip install -r requirements.txt
 add a .env file and enter GROQ_API_KEY = your_key
 python main.py
